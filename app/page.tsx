@@ -1,31 +1,58 @@
 
 "use client"; // This is a client component
 
-import React, {useState} from 'react';
-import Typed from "typed.js"
+import React, { useEffect } from 'react';
+import Home from './home/page';
+import Stack from './stack/page';
+import Experience from './experience/page';
+
 
 export default function page() {
+  useEffect(() => {
+    const handleScroll = () => {
+      // Calculate scroll position
+      const scrollY = window.scrollY;
 
-  const el = React.useRef(null);
+      // Apply styles based on scroll position
+      const section1 = document.getElementById('section1');
+      const section2 = document.getElementById('section2');
+      const section3 = document.getElementById('section3');
 
-  React.useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ['Víctor Cano', 'Frontend developer', 'Backend developer', 'Fullstack developer', 'Software engineer' ],
-      typeSpeed: 50,
-      backSpeed: 50,
-      loop: true
-    })
+      if (scrollY < 500) {
+        section1?.style.setProperty('background-color', 'black');
+        section2?.style.setProperty('background-color', '');
+        section3?.style.setProperty('background-color', '');
+      } else if (scrollY < 1000) {
+        section1?.style.setProperty('background-color', '');
+        section2?.style.setProperty('background-color', 'black');
+        section3?.style.setProperty('background-color', '');
+      } else {
+        section1?.style.setProperty('background-color', '');
+        section2?.style.setProperty('background-color', '');
+        section3?.style.setProperty('background-color', 'black');
+      }
+    };
 
+    // Attach scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener on component unmount
     return () => {
-      typed.destroy();
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  
+
   return (
-      <div className="container mx-auto flex justify-center align-items-center">
-          <div>
-              <h2 className="text-white xl:text-5xl lg:text-3xl md:text-2xl w-max">Hi I am: <br/><span className='text-yellow-600 xl:text-5xl lg:text-3xl md:text-2xl' ref={el} /></h2>
-          </div>
+    <div>
+      <div id="section1" style={{ height: '100vh' }}>
+        <Home />
       </div>
+      {/* <div id="section2" style={{ height: '100vh' }}>
+        <Stack />
+      </div> */}
+      <div id="section3" style={{ height: '100vh' }}>
+        <Experience />
+      </div>
+    </div>
   )
 }

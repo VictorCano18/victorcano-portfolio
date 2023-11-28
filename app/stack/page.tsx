@@ -13,9 +13,9 @@ interface HoverableTextProps {
 const HoverableText: React.FC<HoverableTextProps> = ({ index, text, onHover, onLeave, rating }) => {
     return (
         <div
-            className="hover:text-red-300 cursor-pointer py-5"
-            onMouseOver={(e) => onHover(index, rating, e.currentTarget as HTMLDivElement)}
-            onMouseLeave={onLeave}
+            className="hover:text-red-300 cursor-default py-5"
+        // onMouseOver={(e) => onHover(index, rating, e.currentTarget as HTMLDivElement)}
+        // onMouseLeave={onLeave}
         >
             {text}
         </div>
@@ -78,32 +78,26 @@ export default function Stack() {
     return (
         <div className="container mx-auto flex justify-center align-items-center flex-col">
             <h1 className="text-yellow-600 xl:text-5xl lg:text-3xl md:text-2xl mb-5">Stack</h1>
-            <div className="flex flex-col md:flex-row gap-10">
-                <div className="flex gap-10 mb-5">
-                    <div className="text-white">
-                        <div className="grid grid-flow-col gap-20">
-                            {sectionTitles.map((title, sectionIndex) => (
-                                <div key={sectionIndex}>
-                                    <h1 className="xl:text-4xl lg:text-3xl md:text-1xl text-red-600">{title}</h1>
-                                    {stackTopics[sectionIndex].map((val, innerIndex) => (
-                                        <div key={innerIndex} className='xl:text-3xl md:text-1xl'>
-                                            <HoverableText
-                                                index={innerIndex.toString()}
-                                                text={val[0]}
-                                                onHover={handleHover}
-                                                onLeave={handleLeave}
-                                                rating={val[1]}
-                                            />
-                                            {hoveredElementRef.current?.innerText === val[0] && elementStates[innerIndex.toString()]?.rating > 0 && (
-                                                <div className=''><div className="text-center">{elementStates[innerIndex.toString()]?.rating * 10}%</div><hr style={{ width: elementStates[innerIndex.toString()]?.widthLine, height: 4 }} /></div>
-                                            )}
-                                        </div>
-                                    ))}
-                                </div>
-                            ))}
-                        </div>
+            <div className="grid grid-flow-col gap-20 text-white">
+                {sectionTitles.map((title, sectionIndex) => (
+                    <div key={sectionIndex}>
+                        <h1 className="xl:text-4xl lg:text-3xl md:text-1xl text-red-600">{title}</h1>
+                        {stackTopics[sectionIndex].map((val, innerIndex) => (
+                            <div key={innerIndex} className='xl:text-3xl md:text-1xl'>
+                                <HoverableText
+                                    index={innerIndex.toString()}
+                                    text={val[0]}
+                                    onHover={handleHover}
+                                    onLeave={handleLeave}
+                                    rating={val[1]}
+                                />
+                                {hoveredElementRef.current?.innerText === val[0] && elementStates[innerIndex.toString()]?.rating > 0 && (
+                                    <div className=''><div className="text-center">{elementStates[innerIndex.toString()]?.rating * 10}%</div><hr style={{ width: elementStates[innerIndex.toString()]?.widthLine, height: 4 }} /></div>
+                                )}
+                            </div>
+                        ))}
                     </div>
-                </div>
+                ))}
             </div>
         </div>
     );

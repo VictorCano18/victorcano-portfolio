@@ -29,9 +29,9 @@ hr {
   font-family: "Courier New";
 }
 
-body{
-  max-width: 100vw;
+body {
   height: 100vh;
+  margin: 0 auto;
 }
 
 .container {
@@ -39,4 +39,14 @@ body{
   display: flex;
   align-items: center;
   padding: 0 5rem;
+}
+
+/* .fixed-section {
+  position: fixed;
+  top: 0;
+} */
+
+#section2,
+#section3 {
+  margin-top: 5rem;
 }
