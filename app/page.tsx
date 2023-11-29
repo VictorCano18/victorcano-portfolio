@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import Home from './home/page';
 import Stack from './stack/page';
 import Experience from './experience/page';
+import Courses from './courses/page';
 
 
 export default function page() {
@@ -52,6 +53,10 @@ export default function page() {
       </div> */}
       <div id="section3" style={{ height: '100vh' }}>
         <Experience />
+      </div>
+
+      <div id="section4" style={{ height: '100vh' }}>
+        <Courses />
       </div>
     </div>
   )

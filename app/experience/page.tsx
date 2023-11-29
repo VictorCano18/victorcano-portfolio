@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react';
-import { Button, Timeline } from 'flowbite-react';
-import { HiArrowNarrowRight, HiCalendar, HiBadgeCheck, HiBackspace } from 'react-icons/hi';
+import { Timeline } from 'flowbite-react';
+import { HiCalendar, HiBadgeCheck } from 'react-icons/hi';
 
 export default function Experience() {
     return (
