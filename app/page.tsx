@@ -7,6 +7,7 @@ import Stack from './stack/page';
 import Experience from './experience/page';
 import Courses from './courses/page';
 import Footer from './footer/page';
+import Contact from './contact/page';
 
 
 export default function page() {
@@ -50,16 +51,21 @@ export default function page() {
       <div id="section1" style={{ height: '100vh' }}>
         <Home />
       </div>
-      <div id="section3">
-        <Experience />
+      <div className='flex flex-col gap-20'>
+        <div id="section3">
+          <Experience />
+        </div>
+        {/* <div id="section2">
+          <Stack />
+        </div> */}
+        <div id="section4">
+          <Courses />
+        </div>
+        <div id="section5">
+          <Contact />
+        </div>
       </div>
-      <div id="section2">
-        <Stack />
-      </div>
-      <div id="section4">
-        <Courses />
-      </div>
-      <div id="section5">
+      <div id="section6">
         <Footer />
       </div>
     </div>
