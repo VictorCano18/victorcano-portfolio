@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="container mx-auto justify-center align-items-center">
       <div id="section1" className={isScrolled ? 'fixed-section' : ''}>
-        <h2 className="text-white text-4xl sm:text-5xl">Hi I am: <br /><span className='text-yellow-600 text-4xl sm:text-5xl' ref={el} /></h2>
+        <h2 className="text-white text-4xl">Hi I am: <br /><span className='text-yellow-600 text-2xl sm:text-4xl' ref={el} /></h2>
       </div>
     </div>
   );

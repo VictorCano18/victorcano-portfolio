@@ -41,12 +41,8 @@ body {
   padding: 0 5rem;
 }
 
-/* .fixed-section {
-  position: fixed;
-  top: 0;
-} */
-
-#section2,
-#section3 {
-  margin-top: 5rem;
+.stackGridCols {
+  @media (max-width: 360px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
 }
