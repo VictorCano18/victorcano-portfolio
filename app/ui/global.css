@@ -34,6 +34,11 @@ body {
   margin: 0 auto;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
 .container {
   height: 100%;
   display: flex;
@@ -49,4 +54,81 @@ body {
 
 .contactButton {
   background-color: gray !important;
+}
+
+.clipboardMessage {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+}
+
+.avatarMe img {
+  height: fit-content;
+  width: fit-content;
+
+  @media (max-width: 500px) {
+    height: 10rem !important;
+    width: 10rem !important;
+  }
+}
+
+.avatarMe {
+  /* background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; */
+
+  @media (max-width: 500px) {
+    flex-direction: column !important;
+  }
+}
+
+.avatarMeHeader img {
+  height: fit-content;
+  width: fit-content;
+}
+
+::-moz-selection {
+  color: black;
+  background: #9f580a;
+}
+
+::selection {
+  color: black;
+  background: #9f580a;
+}
+
+@keyframes moveIconForward {
+  0% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+}
+
+@keyframes moveIconBackward {
+  0% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.animationIcon:hover .animateIcon {
+  animation-name: moveIconForward;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.animationIcon:not(:hover) .animateIcon {
+  animation-name: moveIconBackward;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
