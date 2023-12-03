@@ -27,8 +27,6 @@ const Header: React.FC = () => {
     const handleScroll = () => {
       const scrollThreshold = 200;
       const scrollTop = document.documentElement.scrollTop;
-
-      console.log(scrollTop)
       setShouldHide(scrollTop > scrollThreshold);
     };
 
