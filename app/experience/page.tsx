@@ -17,8 +17,8 @@ export default function Experience() {
                             <Timeline.Time><div className='text-lg'>June 2023 - Currently working here</div></Timeline.Time>
                             <Timeline.Title>Fullstack Developer @ <a type='button' href='https://entersol.com.mx/' target="_blank" className='underline'>Entersol</a></Timeline.Title>
                             <Timeline.Body>
-                                In my role as a Software Developer, I've shouldered the crucial responsibility of managing our flagship product, Validex. Each day, I'm focused on resolving bugs and implementing fixes that improve site performance. My efforts have directly contributed to an enhanced platform and a top-tier user experience.<br />
-                                Leveraging my technical knowledge and skills, I've actively contributed to the development and release of new features within Validex. These enhancements have a direct and positive impact on the clients who rely on our product, ensuring a valuable user experience.
+                                In my role as a Software Developer, I&#39;ve shouldered the crucial responsibility of managing our flagship product, Validex. Each day, I&#39;m focused on resolving bugs and implementing fixes that improve site performance. My efforts have directly contributed to an enhanced platform and a top-tier user experience.<br />
+                                Leveraging my technical knowledge and skills, I&#39;ve actively contributed to the development and release of new features within Validex. These enhancements have a direct and positive impact on the clients who rely on our product, ensuring a valuable user experience.
                             </Timeline.Body>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
@@ -277,13 +277,13 @@ export default function Experience() {
                             <Timeline.Time><div className='text-lg'>February 2021 - June 2021</div></Timeline.Time>
                             <Timeline.Title>Intern as Fullstack Developer @ <a type='button' href='https://amazon.com.mx/' target="_blank" className='underline'>Amazon</a></Timeline.Title>
                             <Timeline.Body>
-                                During my dynamic internship at Amazon, I had the privilege of collaborating with a talented group of friends and fellow students to create an entire website that revolutionized the user experience. This ambitious project focused on helping users discover personalized 'hobbies' by leveraging their preferences and recommending relevant Amazon products. In this role, I demonstrated proficiency in:
+                                During my dynamic internship at Amazon, I had the privilege of collaborating with a talented group of friends and fellow students to create an entire website that revolutionized the user experience. This ambitious project focused on helping users discover personalized &#39;hobbies&#39; by leveraging their preferences and recommending relevant Amazon products. In this role, I demonstrated proficiency in:
                                 <List>
                                     <List.Item>
                                         <strong>Front End Mastery:</strong> I harnessed the power of Angular to craft a compelling and user-friendly front-end interface, ensuring a seamless and intuitive browsing experience for our visitors.
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Robust Back End Development:</strong> I dived into Amazon's vast tech stack, utilizing tools such as Cloud 9, S3, EC2, and Lambda to build a resilient and scalable back end that could efficiently process and recommend products based on user preferences.
+                                        <strong>Robust Back End Development:</strong> I dived into Amazon&#39;s vast tech stack, utilizing tools such as Cloud 9, S3, EC2, and Lambda to build a resilient and scalable back end that could efficiently process and recommend products based on user preferences.
                                     </List.Item>
                                 </List>
                             </Timeline.Body>

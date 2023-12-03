@@ -77,7 +77,7 @@ export default function Courses() {
                     </a>
                 </div>
                 <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 flex flex-col justify-between">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">AI's Introduction
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">AI&#39;s Introduction
                     </h5>
                     <a href='https://courses.edx.org/certificates/5208d5357c3f4fe198e885ef13a8cc52' target='_blank' className="animationIcon inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                         Certificate
