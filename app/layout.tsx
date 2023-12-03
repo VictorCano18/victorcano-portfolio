@@ -1,4 +1,10 @@
 import '@/app/ui/global.css';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Victor Cano Portfolio',
+};
+
 
 export default function RootLayout({
   children,
@@ -7,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-black sm:max-w-screen-sm mx-auto relative px-5'>{children}</body>
     </html>
   );
 }
