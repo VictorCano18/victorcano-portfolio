@@ -1,4 +1,4 @@
-// Your React component file
+"use client"; // This is a client component
 
 import React, { useEffect, useState } from 'react';
 import { Avatar, Button } from 'flowbite-react';
@@ -8,7 +8,10 @@ import { FaFileInvoice } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Tooltip } from "@nextui-org/react";
 
-export default function Header() {
+// Use the useClient pragma to mark the component for client-side rendering
+// @ts-ignore
+// @jsxImportSource @nextui-org/react
+const Header: React.FC = () => {
   const handleDownload = () => {
     const pdfFilePath = '/CV_VictorCano_SoftwareDeveloper.pdf';
     const link = document.createElement('a');
@@ -18,17 +21,16 @@ export default function Header() {
   };
 
   const [shouldHide, setShouldHide] = useState<boolean>(false);
+
+  // @ts-ignore
   useEffect(() => {
     const handleScroll = () => {
       const scrollThreshold = 200;
       const scrollTop = document.documentElement.scrollTop;
 
       console.log(scrollTop)
-      // Use a smoother transition by adjusting the opacity based on the scroll position
       setShouldHide(scrollTop > scrollThreshold);
     };
-
-
 
     window.addEventListener('scroll', handleScroll);
 
@@ -36,7 +38,6 @@ export default function Header() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   return (
     <header>
       <div className="flex flex-col main-heading">
@@ -54,7 +55,7 @@ export default function Header() {
                   </a>
                 </Tooltip>
                 <Tooltip content="GitHub source" className='text-black bg-yellow-500 rounded'>
-                  <a href='https://github.com/VictorCano18/nextjs' target='_blank'>
+                  <a href='https://github.com/VictorCano18/victorcano-portfolio' target='_blank'>
                     <Button pill className='w-fit animationIcon' color="purple">
                       <FaGithub className='text-xl animateIcon' />
                     </Button>
@@ -95,3 +96,6 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;
+
