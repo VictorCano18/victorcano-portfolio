@@ -1,4 +1,10 @@
 import '@/app/ui/global.css';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Victor Cano Portfolio',
+};
+
 
 export default function RootLayout({
   children,
