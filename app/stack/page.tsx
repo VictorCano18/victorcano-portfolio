@@ -1,4 +1,4 @@
-'use client'
+"use client"; // This is a client component
 
 import React, { useState, useRef } from 'react';
 import { Tooltip } from "@nextui-org/react";

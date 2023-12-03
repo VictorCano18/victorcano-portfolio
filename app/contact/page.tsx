@@ -1,4 +1,4 @@
-'use client'
+"use client"; // This is a client component
 
 import React, { useState } from 'react';
 import { Button, Alert } from 'flowbite-react';
