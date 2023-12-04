@@ -14,7 +14,7 @@ export default function Experience() {
                     <Timeline.Item>
                         <Timeline.Point icon={HiBadgeCheck} />
                         <Timeline.Content>
-                            <Timeline.Time><div className='text-lg'>June 2023 - Currently working here</div></Timeline.Time>
+                            <Timeline.Time><div className='text-lg dateColor'>June 2023 - Currently working here</div></Timeline.Time>
                             <Timeline.Title>Fullstack Developer @ <a type='button' href='https://entersol.com.mx/' target="_blank" className='underline'>Entersol</a></Timeline.Title>
                             <Timeline.Body>
                                 In my role as a Software Developer, I&#39;ve shouldered the crucial responsibility of managing our flagship product, Validex. Each day, I&#39;m focused on resolving bugs and implementing fixes that improve site performance. My efforts have directly contributed to an enhanced platform and a top-tier user experience.<br />
@@ -104,7 +104,7 @@ export default function Experience() {
                     <Timeline.Item>
                         <Timeline.Point icon={HiCalendar} />
                         <Timeline.Content>
-                            <Timeline.Time><div className='text-lg'>July 2022 - June 2023</div></Timeline.Time>
+                            <Timeline.Time><div className='text-lg dateColor'>July 2022 - June 2023</div></Timeline.Time>
                             <Timeline.Title>Frontend Developer @ <a type='button' href='https://www.vinneren.com.mx/' target="_blank" className='underline'>Vinneren</a></Timeline.Title>
                             <Timeline.Body>
                                 I played a pivotal role in the development of various projects at Vinneren eCommerce, leveraging my technical acumen and proactive approach to meet diverse challenges. My responsibilities encompassed an array of tasks, including:<br />
@@ -196,7 +196,7 @@ export default function Experience() {
                     <Timeline.Item>
                         <Timeline.Point icon={HiCalendar} />
                         <Timeline.Content>
-                            <Timeline.Time><div className='text-lg'>January 2021 - January 2022</div></Timeline.Time>
+                            <Timeline.Time><div className='text-lg dateColor'>January 2021 - January 2022</div></Timeline.Time>
                             <Timeline.Title>Frontend Developer @ <a type='button' href='https://smartseguros.mx/SmartMujer/Cotizador' target="_blank" className='underline'>Smart Seguros</a></Timeline.Title>
                             <Timeline.Body>
                                 I spearheaded a transformative project at Smart Seguros, an insurance-focused company, where I harnessed my expertise to construct a comprehensive website from the ground up. This ambitious undertaking spanned over a year and encapsulated a spectrum of responsibilities:<br />
@@ -274,7 +274,7 @@ export default function Experience() {
                     <Timeline.Item>
                         <Timeline.Point icon={HiCalendar} />
                         <Timeline.Content>
-                            <Timeline.Time><div className='text-lg'>February 2021 - June 2021</div></Timeline.Time>
+                            <Timeline.Time><div className='text-lg dateColor'>February 2021 - June 2021</div></Timeline.Time>
                             <Timeline.Title>Intern as Fullstack Developer @ <a type='button' href='https://amazon.com.mx/' target="_blank" className='underline'>Amazon</a></Timeline.Title>
                             <Timeline.Body>
                                 During my dynamic internship at Amazon, I had the privilege of collaborating with a talented group of friends and fellow students to create an entire website that revolutionized the user experience. This ambitious project focused on helping users discover personalized &#39;hobbies&#39; by leveraging their preferences and recommending relevant Amazon products. In this role, I demonstrated proficiency in:

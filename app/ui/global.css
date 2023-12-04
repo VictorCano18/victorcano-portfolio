@@ -148,3 +148,7 @@ body::-webkit-scrollbar-thumb {
 .hiddeStatic {
   display: none !important;
 }
+
+.dateColor {
+  color: #b2e5eb
+}
