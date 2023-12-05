@@ -75,8 +75,10 @@ body::-webkit-scrollbar-thumb {
   width: fit-content;
 
   @media (max-width: 500px) {
-    height: 14rem !important;
-    width: 14rem !important;
+    height: 100%;
+    max-height: 14rem !important;
+    width: 100%;
+    max-width: 14rem !important;
   }
 }
 
@@ -154,7 +156,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .imgWidth {
-  width: 10%;
+  width: 100%;
+  max-width: 10%;
+
   @media (max-width: 330px) {
     display: none;
   }
