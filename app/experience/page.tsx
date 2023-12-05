@@ -16,7 +16,7 @@ export default function Experience() {
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>June 2023 - Currently working here</div></Timeline.Time>
                             <Timeline.Title className='text-white dark:text-white'>Fullstack Developer @ <a type='button' href='https://entersol.com.mx/' target="_blank" className='underline'>Entersol</a></Timeline.Title>
-                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
+                            <Timeline.Body className='text-gray-300 dark:text-gray-300'>
                                 In my role as a Software Developer, I&#39;ve shouldered the crucial responsibility of managing our flagship product, Validex. Each day, I&#39;m focused on resolving bugs and implementing fixes that improve site performance. My efforts have directly contributed to an enhanced platform and a top-tier user experience.<br />
                                 Leveraging my technical knowledge and skills, I&#39;ve actively contributed to the development and release of new features within Validex. These enhancements have a direct and positive impact on the clients who rely on our product, ensuring a valuable user experience.
                             </Timeline.Body>
@@ -106,20 +106,20 @@ export default function Experience() {
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>July 2022 - June 2023</div></Timeline.Time>
                             <Timeline.Title className='text-white dark:text-white'>Frontend Developer @ <a type='button' href='https://www.vinneren.com.mx/' target="_blank" className='underline'>Vinneren</a></Timeline.Title>
-                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
+                            <Timeline.Body className='text-gray-300 dark:text-gray-300'>
                                 I played a pivotal role in the development of various projects at Vinneren eCommerce, leveraging my technical acumen and proactive approach to meet diverse challenges. My responsibilities encompassed an array of tasks, including:<br />
                                 <List>
-                                    <List.Item>
-                                        <strong>Support Resolution:</strong> I took the lead in addressing and resolving support issues, ranging from minor glitches to substantial challenges, ensuring uninterrupted service for our clients.
+                                    <List.Item className='text-gray-300 dark:text-gray-300'>
+                                        <strong>Support Resolution</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Custom Component Development:</strong> I had the privilege of designing and implementing custom components tailored to user requirements, enhancing the user experience and site functionality.
+                                        <strong>Custom Component Development</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Enhanced User Experience:</strong> I meticulously fine-tuned site styles, components, and sections to ensure users enjoyed a seamless and enjoyable online shopping experience.
+                                        <strong>Enhanced User Experience</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>VTEX Mastery:</strong> Proficiently navigated the VTEX platform, serving as a server and workspace for my development activities. This included modifying components, managing apps, and optimizing store items, among other critical tasks.
+                                        <strong>VTEX Mastery</strong>
                                     </List.Item>
                                 </List>
 
@@ -198,17 +198,17 @@ export default function Experience() {
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>January 2021 - January 2022</div></Timeline.Time>
                             <Timeline.Title className='text-white dark:text-white'>Frontend Developer @ <a type='button' href='https://smartseguros.mx/SmartMujer/Cotizador' target="_blank" className='underline'>Smart Seguros</a></Timeline.Title>
-                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
+                            <Timeline.Body className='text-gray-300 dark:text-gray-300'>
                                 I spearheaded a transformative project at Smart Seguros, an insurance-focused company, where I harnessed my expertise to construct a comprehensive website from the ground up. This ambitious undertaking spanned over a year and encapsulated a spectrum of responsibilities:<br />
-                                <List>
+                                <List className='text-gray-300 dark:text-gray-300'>
                                     <List.Item>
-                                        <strong>Frontend Mastery:</strong> I crafted every facet of the website, commencing from the inception of a user login/logout component to constructing static website sections, headers, footers, and complex user interfaces.
+                                        <strong>Frontend Mastery</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Seamless Integration:</strong> I bridged the gap between the frontend and backend, effectively interfacing with REST APIs to enable data exchange. My work was instrumental in creating a responsive, dynamic user experience.
+                                        <strong>Seamless Integration</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Customization:</strong> To cater to diverse user and administrator requirements, I designed adaptable components, ensuring that users could effortlessly access their insurance data, including policies, insured items, and claims.
+                                        <strong>Customization</strong>
                                     </List.Item>
                                 </List>
                             </Timeline.Body>
@@ -276,14 +276,14 @@ export default function Experience() {
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>February 2021 - June 2021</div></Timeline.Time>
                             <Timeline.Title className='text-white dark:text-white'>Intern as Fullstack Developer @ <a type='button' href='https://amazon.com.mx/' target="_blank" className='underline'>Amazon</a></Timeline.Title>
-                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
+                            <Timeline.Body className='text-gray-300 dark:text-gray-300'>
                                 During my dynamic internship at Amazon, I had the privilege of collaborating with a talented group of friends and fellow students to create an entire website that revolutionized the user experience. This ambitious project focused on helping users discover personalized &#39;hobbies&#39; by leveraging their preferences and recommending relevant Amazon products. In this role, I demonstrated proficiency in:
-                                <List>
+                                <List className='text-gray-300 dark:text-gray-300'>
                                     <List.Item>
-                                        <strong>Front End Mastery:</strong> I harnessed the power of Angular to craft a compelling and user-friendly front-end interface, ensuring a seamless and intuitive browsing experience for our visitors.
+                                        <strong>Front End Mastery</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Robust Back End Development:</strong> I dived into Amazon&#39;s vast tech stack, utilizing tools such as Cloud 9, S3, EC2, and Lambda to build a resilient and scalable back end that could efficiently process and recommend products based on user preferences.
+                                        <strong>Robust Back End Development</strong>
                                     </List.Item>
                                 </List>
                             </Timeline.Body>

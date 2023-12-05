@@ -17,7 +17,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Udemy</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">Modern React with Redux</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">Modern React with Redux</div>
                         </div>
                         <a href='https://www.udemy.com/certificate/UC-8cf9dd67-aa27-4ea8-b311-94852bda78a9/' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -32,7 +32,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Udemy</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">The Complete 2023 Web Development Bootcamp</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">The Complete 2023 Web Development Bootcamp</div>
                         </div>
                         <a href='https://www.udemy.com/certificate/UC-ee0323d1-5b1c-470d-9cbd-8eaab4c60a74' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -47,7 +47,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">Front-End Web UI Frameworks and Tools: Bootstrap 4</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">Front-End Web UI Frameworks and Tools: Bootstrap 4</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/ADZCRPCV5ENE' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -62,7 +62,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">Data Collection and Processing with Python</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">Data Collection and Processing with Python</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/YV5MGJLAVVLL' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -77,7 +77,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">Python Classes and Inheritance</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">Python Classes and Inheritance</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/BX9G6W9FJDGN' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -92,7 +92,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">Python Functions, Files, and Dictionaries</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">Python Functions, Files, and Dictionaries</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/8E5XCQ59LBUX' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -107,7 +107,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">Python Basics</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">Python Basics</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/7LXQSYMKHY5K' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -122,7 +122,7 @@ export default function Courses() {
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>EdX</strong></div>
-                            <div className="text-sm text-gray-400 dark:text-gray-400">AI&#39;s Introduction</div>
+                            <div className="text-sm text-gray-300 dark:text-gray-300">AI&#39;s Introduction</div>
                         </div>
                         <a href='https://courses.edx.org/certificates/5208d5357c3f4fe198e885ef13a8cc52' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
