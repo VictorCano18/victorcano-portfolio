@@ -152,3 +152,10 @@ body::-webkit-scrollbar-thumb {
 .dateColor {
   color: #b2e5eb
 }
+
+.imgWidth {
+  width: 10%;
+  @media (max-width: 330px) {
+    display: none;
+  }
+}
