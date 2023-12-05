@@ -41,7 +41,7 @@ const Header: React.FC = () => {
       <div className="flex flex-col main-heading">
         <div className='flex flex-col gap-4 mb-2'>
           <Avatar img={AvatarImage.src} rounded className='avatarMe sm:space-x-4 space-x-0 mt-5'>
-            <div className="text-5xl space-y-1 font-medium dark:text-white text-center sm:text-left">
+            <div className="text-5xl space-y-1 font-medium text-white dark:text-white text-center sm:text-left">
               <div>Víctor Cano</div>
               <div className="text-xl text-gray-300 dark:text-gray-300">Apassionate software engineer focused on web development and minimalist design</div>
               <div className='flex flex-row gap-2 sm:justify-start justify-center sm:items-start items-center pt-2'>
