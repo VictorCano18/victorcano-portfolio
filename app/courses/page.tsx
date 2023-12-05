@@ -12,12 +12,12 @@ export default function Courses() {
         <div className="text-white relative sm:max-w-full max-w-xs mx-auto">
             <h1 className="text-yellow-600 text-4xl sm:text-5xl mb-5">Courses</h1>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={UdemyLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Udemy</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">Modern React with Redux</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">Modern React with Redux</div>
                         </div>
                         <a href='https://www.udemy.com/certificate/UC-8cf9dd67-aa27-4ea8-b311-94852bda78a9/' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -27,12 +27,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={UdemyLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Udemy</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">The Complete 2023 Web Development Bootcamp</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">The Complete 2023 Web Development Bootcamp</div>
                         </div>
                         <a href='https://www.udemy.com/certificate/UC-ee0323d1-5b1c-470d-9cbd-8eaab4c60a74' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -42,12 +42,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">Front-End Web UI Frameworks and Tools: Bootstrap 4</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">Front-End Web UI Frameworks and Tools: Bootstrap 4</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/ADZCRPCV5ENE' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -57,12 +57,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">Data Collection and Processing with Python</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">Data Collection and Processing with Python</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/YV5MGJLAVVLL' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -72,12 +72,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">Python Classes and Inheritance</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">Python Classes and Inheritance</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/BX9G6W9FJDGN' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -87,12 +87,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">Python Functions, Files, and Dictionaries</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">Python Functions, Files, and Dictionaries</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/8E5XCQ59LBUX' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -102,12 +102,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">Python Basics</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">Python Basics</div>
                         </div>
                         <a href='https://www.coursera.org/account/accomplishments/certificate/7LXQSYMKHY5K' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate
@@ -117,12 +117,12 @@ export default function Courses() {
                         </a>
                     </div>
                 </div>
-                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
+                <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
                     <img src={EdxLogo.src} className='flex h-fit imgWidth' />
-                    <div className="w-52 space-y-1 font-medium dark:text-white flex flex-col justify-between">
+                    <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>EdX</strong></div>
-                            <div className="text-sm text-gray-200 dark:text-gray-40 0">AI&#39;s Introduction</div>
+                            <div className="text-sm text-gray-400 dark:text-gray-400">AI&#39;s Introduction</div>
                         </div>
                         <a href='https://courses.edx.org/certificates/5208d5357c3f4fe198e885ef13a8cc52' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit">
                             Certificate

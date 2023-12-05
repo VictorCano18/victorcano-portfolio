@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           <Avatar img={AvatarImage.src} rounded className='avatarMe sm:space-x-4 space-x-0 mt-5'>
             <div className="text-5xl space-y-1 font-medium dark:text-white text-center sm:text-left">
               <div>Víctor Cano</div>
-              <div className="text-xl text-gray-500 dark:text-gray-400">Apassionate software engineer focused on web development and minimalist design</div>
+              <div className="text-xl text-gray-400 dark:text-gray-400">Apassionate software engineer focused on web development and minimalist design</div>
               <div className='flex flex-row gap-2 sm:justify-start justify-center sm:items-start items-center pt-2'>
                 <Tooltip content="Mail me" className='text-black bg-yellow-500 rounded'>
                   <Button href='#section5' pill className='w-fit animationIcon'>

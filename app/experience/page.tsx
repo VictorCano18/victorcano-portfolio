@@ -15,14 +15,14 @@ export default function Experience() {
                         <Timeline.Point icon={HiBadgeCheck} />
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>June 2023 - Currently working here</div></Timeline.Time>
-                            <Timeline.Title>Fullstack Developer @ <a type='button' href='https://entersol.com.mx/' target="_blank" className='underline'>Entersol</a></Timeline.Title>
-                            <Timeline.Body>
+                            <Timeline.Title className='text-white dark:text-white'>Fullstack Developer @ <a type='button' href='https://entersol.com.mx/' target="_blank" className='underline'>Entersol</a></Timeline.Title>
+                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
                                 In my role as a Software Developer, I&#39;ve shouldered the crucial responsibility of managing our flagship product, Validex. Each day, I&#39;m focused on resolving bugs and implementing fixes that improve site performance. My efforts have directly contributed to an enhanced platform and a top-tier user experience.<br />
                                 Leveraging my technical knowledge and skills, I&#39;ve actively contributed to the development and release of new features within Validex. These enhancements have a direct and positive impact on the clients who rely on our product, ensuring a valuable user experience.
                             </Timeline.Body>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Javascript" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -77,7 +77,7 @@ export default function Experience() {
                                     </span>
                                 </div>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Git" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -105,8 +105,8 @@ export default function Experience() {
                         <Timeline.Point icon={HiCalendar} />
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>July 2022 - June 2023</div></Timeline.Time>
-                            <Timeline.Title>Frontend Developer @ <a type='button' href='https://www.vinneren.com.mx/' target="_blank" className='underline'>Vinneren</a></Timeline.Title>
-                            <Timeline.Body>
+                            <Timeline.Title className='text-white dark:text-white'>Frontend Developer @ <a type='button' href='https://www.vinneren.com.mx/' target="_blank" className='underline'>Vinneren</a></Timeline.Title>
+                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
                                 I played a pivotal role in the development of various projects at Vinneren eCommerce, leveraging my technical acumen and proactive approach to meet diverse challenges. My responsibilities encompassed an array of tasks, including:<br />
                                 <List>
                                     <List.Item>
@@ -126,7 +126,7 @@ export default function Experience() {
                             </Timeline.Body>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Javascript" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -166,7 +166,7 @@ export default function Experience() {
                                     </span>
                                 </div>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Git" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -197,8 +197,8 @@ export default function Experience() {
                         <Timeline.Point icon={HiCalendar} />
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>January 2021 - January 2022</div></Timeline.Time>
-                            <Timeline.Title>Frontend Developer @ <a type='button' href='https://smartseguros.mx/SmartMujer/Cotizador' target="_blank" className='underline'>Smart Seguros</a></Timeline.Title>
-                            <Timeline.Body>
+                            <Timeline.Title className='text-white dark:text-white'>Frontend Developer @ <a type='button' href='https://smartseguros.mx/SmartMujer/Cotizador' target="_blank" className='underline'>Smart Seguros</a></Timeline.Title>
+                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
                                 I spearheaded a transformative project at Smart Seguros, an insurance-focused company, where I harnessed my expertise to construct a comprehensive website from the ground up. This ambitious undertaking spanned over a year and encapsulated a spectrum of responsibilities:<br />
                                 <List>
                                     <List.Item>
@@ -214,7 +214,7 @@ export default function Experience() {
                             </Timeline.Body>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Javascript" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -254,7 +254,7 @@ export default function Experience() {
                                     </span>
                                 </div>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Git" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -275,8 +275,8 @@ export default function Experience() {
                         <Timeline.Point icon={HiCalendar} />
                         <Timeline.Content>
                             <Timeline.Time><div className='text-lg dateColor'>February 2021 - June 2021</div></Timeline.Time>
-                            <Timeline.Title>Intern as Fullstack Developer @ <a type='button' href='https://amazon.com.mx/' target="_blank" className='underline'>Amazon</a></Timeline.Title>
-                            <Timeline.Body>
+                            <Timeline.Title className='text-white dark:text-white'>Intern as Fullstack Developer @ <a type='button' href='https://amazon.com.mx/' target="_blank" className='underline'>Amazon</a></Timeline.Title>
+                            <Timeline.Body className='text-gray-400 dark:text-gray-400'>
                                 During my dynamic internship at Amazon, I had the privilege of collaborating with a talented group of friends and fellow students to create an entire website that revolutionized the user experience. This ambitious project focused on helping users discover personalized &#39;hobbies&#39; by leveraging their preferences and recommending relevant Amazon products. In this role, I demonstrated proficiency in:
                                 <List>
                                     <List.Item>
@@ -289,7 +289,7 @@ export default function Experience() {
                             </Timeline.Body>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 h-fit w-fit">Stack</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Javascript" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
@@ -314,7 +314,7 @@ export default function Experience() {
                                     </span>
                                 </div>
                                 <div className='flex sm:items-center sm:justify-content-center flex-col sm:flex-row gap-4 sm:gap-2'>
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
+                                    <span className="bg-blue-900 text-blue-300 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 w-fit h-fit">Tools</span>
                                     <span className='flex gap-2 grid sm:grid-cols-10 grid-cols-4'>
                                         <Tooltip content="Git" className='text-black bg-yellow-500 rounded'>
                                             <svg className="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
