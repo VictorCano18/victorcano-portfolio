@@ -38,7 +38,7 @@ export default function Contact() {
                                 <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z" />
                             </svg>
                         </div>
-                        <input type="text" id="input-group-1" className="bg-gray-50 border bg-transparent border-gray-600 placeholder-gray-300 text-white focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="victor.cano.1806@gmail.com" disabled />
+                        <input type="text" id="input-group-1" className="bg-gray-50 border bg-transparent border-gray-600 placeholder-gray-100 text-white focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-transparent dark:border-gray-600 dark:placeholder-gray-100 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 rounded" placeholder="victor.cano.1806@gmail.com" disabled />
                     </div>
                     <div className='flex gap-2'>
                         <Tooltip content="Send me a mail" className='text-black bg-yellow-500 rounded'>
