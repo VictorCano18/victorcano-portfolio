@@ -157,7 +157,10 @@ body::-webkit-scrollbar-thumb {
 
 .imgWidth {
   width: 100%;
-  max-width: 10%;
+
+  @media (min-width: 331px) {
+    max-width: 10%;
+  }
 
   @media (max-width: 330px) {
     display: none;
