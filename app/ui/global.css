@@ -156,8 +156,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .imgWidth {
-  width: 2rem !important;
-  height: 1.8rem !important;
+  width: 2rem;
+  height: 2rem;
 
   @media (max-width: 330px) {
     display: none;
