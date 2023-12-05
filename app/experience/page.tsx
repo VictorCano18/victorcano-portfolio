@@ -108,8 +108,8 @@ export default function Experience() {
                             <Timeline.Title className='text-white dark:text-white'>Frontend Developer @ <a type='button' href='https://www.vinneren.com.mx/' target="_blank" className='underline'>Vinneren</a></Timeline.Title>
                             <Timeline.Body className='text-gray-300 dark:text-gray-300'>
                                 I played a pivotal role in the development of various projects at Vinneren eCommerce, leveraging my technical acumen and proactive approach to meet diverse challenges. My responsibilities encompassed an array of tasks, including:<br />
-                                <List>
-                                    <List.Item className='text-gray-300 dark:text-gray-300'>
+                                <List className='text-gray-300 dark:text-gray-300'>
+                                    <List.Item>
                                         <strong>Support Resolution</strong>
                                     </List.Item>
                                     <List.Item>
