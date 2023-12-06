@@ -39,35 +39,34 @@ const Header: React.FC = () => {
   return (
     <header>
       <div className="flex flex-col main-heading">
-        <div className='flex flex-col gap-4 mb-2'>
-          <Avatar img={AvatarImage.src} rounded className='avatarMe sm:space-x-4 space-x-0 mt-5'>
-            <div className="text-5xl space-y-1 font-medium text-white dark:text-white text-center sm:text-left">
-              <div>Víctor Cano</div>
-              <div className="text-xl text-gray-300 dark:text-gray-300">Apassionate software engineer focused on web development and minimalist design</div>
-              <div className='flex flex-row gap-2 sm:justify-start justify-center sm:items-start items-center pt-2'>
-                <Tooltip content="Mail me" className='text-black bg-yellow-500 rounded'>
-                  <Button href='#section5' pill className='w-fit animationIcon'>
-                    <IoIosMail className='text-xl animateIcon' />
-                  </Button>
-                </Tooltip>
-                <Tooltip content="GitHub source" className='text-black bg-yellow-500 rounded'>
-                  <Button href='https://github.com/VictorCano18/victorcano-portfolio' target='_blank' pill className='w-fit animationIcon' color="purple">
-                    <FaGithub className='text-xl animateIcon' />
-                  </Button>
-                </Tooltip>
-                <Tooltip content="LinkedIn" className='text-black bg-yellow-500 rounded'>
-                  <Button href="https://www.linkedin.com/in/vics1806/" target='_blank' pill className='w-fit animationIcon' color="blue">
-                    <FaLinkedin className='text-xl animateIcon' />
-                  </Button>
-                </Tooltip>
-                <Tooltip content="Resume" className='text-black bg-yellow-500 rounded'>
-                  <Button onClick={handleDownload} pill className='w-fit animationIcon' color="failure">
-                    <FaFileInvoice className='text-xl animateIcon' />
-                  </Button>
-                </Tooltip>
-              </div>
+        <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-2'>
+          <img src={AvatarImage.src} className='sm:space-x-4 space-x-0 sm:w-2/5 w-3/5' />
+          <div className="text-5xl space-y-1 font-medium text-white dark:text-white text-center sm:text-left">
+            <div>Víctor Cano</div>
+            <div className="text-xl text-gray-300 dark:text-gray-300">Apassionate software engineer focused on web development and minimalist design</div>
+            <div className='flex flex-row gap-2 sm:justify-start justify-center sm:items-start items-center pt-2'>
+              <Tooltip content="Mail me" className='text-black bg-yellow-500 rounded'>
+                <Button href='#section5' pill className='w-fit animationIcon'>
+                  <IoIosMail className='text-xl animateIcon' />
+                </Button>
+              </Tooltip>
+              <Tooltip content="GitHub source" className='text-black bg-yellow-500 rounded'>
+                <Button href='https://github.com/VictorCano18/victorcano-portfolio' target='_blank' pill className='w-fit animationIcon' color="purple">
+                  <FaGithub className='text-xl animateIcon' />
+                </Button>
+              </Tooltip>
+              <Tooltip content="LinkedIn" className='text-black bg-yellow-500 rounded'>
+                <Button href="https://www.linkedin.com/in/vics1806/" target='_blank' pill className='w-fit animationIcon' color="blue">
+                  <FaLinkedin className='text-xl animateIcon' />
+                </Button>
+              </Tooltip>
+              <Tooltip content="Resume" className='text-black bg-yellow-500 rounded'>
+                <Button onClick={handleDownload} pill className='w-fit animationIcon' color="failure">
+                  <FaFileInvoice className='text-xl animateIcon' />
+                </Button>
+              </Tooltip>
             </div>
-          </Avatar>
+          </div>
         </div>
         <div className={`${!shouldHide && 'hidden'}`}>
           <a href='#section1'>

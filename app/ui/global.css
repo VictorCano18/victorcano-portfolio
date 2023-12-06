@@ -86,8 +86,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .avatarMe {
-  backdrop-filter: blur(10px);
-
+  max-width: 30%;
   @media (max-width: 615px) {
     flex-direction: column !important;
   }
