@@ -40,7 +40,7 @@ const Header: React.FC = () => {
     <header>
       <div className="flex flex-col main-heading">
         <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-2'>
-          <img src={AvatarImage.src} className='sm:space-x-4 space-x-0 sm:w-2/5 w-3/5' />
+          <img src={AvatarImage.src} alt='avatar of me' className='sm:space-x-4 space-x-0 sm:w-2/5 w-3/5' />
           <div className="text-5xl space-y-1 font-medium text-white dark:text-white text-center sm:text-left">
             <div>Víctor Cano</div>
             <div className="text-xl text-gray-300 dark:text-gray-300">Apassionate software engineer focused on web development and minimalist design</div>

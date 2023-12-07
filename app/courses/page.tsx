@@ -13,7 +13,7 @@ export default function Courses() {
             <h1 className="text-yellow-600 text-4xl sm:text-5xl mb-5">Courses</h1>
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={UdemyLogo.src} className='flex h-fit imgWidth' />
+                    <img src={UdemyLogo.src} alt='udemy-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Udemy</strong></div>
@@ -28,7 +28,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={UdemyLogo.src} className='flex h-fit imgWidth' />
+                    <img src={UdemyLogo.src} alt='udemy-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Udemy</strong></div>
@@ -43,7 +43,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
+                    <img src={CourseraLogo.src} alt='coursera-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
@@ -58,7 +58,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
+                    <img src={CourseraLogo.src} alt='coursera-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
@@ -73,7 +73,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
+                    <img src={CourseraLogo.src} alt='coursera-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
@@ -88,7 +88,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
+                    <img src={CourseraLogo.src} alt='coursera-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
@@ -103,7 +103,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={CourseraLogo.src} className='flex h-fit imgWidth' />
+                    <img src={CourseraLogo.src} alt='coursera-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>Coursera</strong></div>
@@ -118,7 +118,7 @@ export default function Courses() {
                     </div>
                 </div>
                 <div className="flex flex-row sm:gap-2 max-w-sm p-6 bg-black border border-gray-700 bg-black rounded-lg shadow dark:bg-black dark:border-gray-700 justify-between">
-                    <img src={EdxLogo.src} className='flex h-fit imgWidth' />
+                    <img src={EdxLogo.src} alt='edx-logo' className='flex h-fit imgWidthEdx' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
                             <div><strong>EdX</strong></div>

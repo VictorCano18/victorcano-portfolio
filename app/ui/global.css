@@ -87,6 +87,7 @@ body::-webkit-scrollbar-thumb {
 
 .avatarMe {
   max-width: 30%;
+
   @media (max-width: 615px) {
     flex-direction: column !important;
   }
@@ -160,6 +161,15 @@ body::-webkit-scrollbar-thumb {
 .imgWidth {
   width: 2rem;
   height: 2rem;
+
+  @media (max-width: 330px) {
+    display: none;
+  }
+}
+
+.imgWidthEdx {
+  width: 2rem;
+  height: 1.5rem;
 
   @media (max-width: 330px) {
     display: none;
