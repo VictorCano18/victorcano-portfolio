@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Victor Cano Portfolio',
+  description: 'Know more about me, my work and get in touch!'
 };
 
 
