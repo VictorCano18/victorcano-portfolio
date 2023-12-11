@@ -280,10 +280,10 @@ export default function Experience() {
                                 During my dynamic internship at Amazon, I had the privilege of collaborating with a talented group of friends and fellow students to create an entire website that revolutionized the user experience. This ambitious project focused on helping users discover personalized &#39;hobbies&#39; by leveraging their preferences and recommending relevant Amazon products. In this role, I demonstrated proficiency in:
                                 <List className='text-gray-300 dark:text-gray-300'>
                                     <List.Item>
-                                        <strong>Front End Mastery</strong>
+                                        <strong>Frontend Mastery</strong>
                                     </List.Item>
                                     <List.Item>
-                                        <strong>Robust Back End Development</strong>
+                                        <strong>Robust Backend Development</strong>
                                     </List.Item>
                                 </List>
                             </Timeline.Body>
