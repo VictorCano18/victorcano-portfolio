@@ -2,12 +2,13 @@
 "use client"; // This is a client component
 
 import React, { useEffect } from 'react';
-import Header from './header/page';
-import Experience from './experience/page';
-import Courses from './courses/page';
-import Footer from './footer/page';
-import Contact from './contact/page';
+import Header from './pages/header/page';
+import Experience from './pages/experience/page';
+import Courses from './pages/courses/page';
+import Footer from './pages/footer/page';
+import Contact from './pages/contact/page';
 import { MyContextProvider } from './context/context';
+import Projects from './pages/projects/page';
 
 
 
@@ -26,10 +27,13 @@ export default function page() {
           <Courses />
         </div>
         <div id="section4">
+        <Projects />
+      </div>
+        <div id="section5">
           <Contact />
         </div>
       </div>
-      <div id="section5">
+      <div id="section6">
         <Footer />
       </div>
     </MyContextProvider>

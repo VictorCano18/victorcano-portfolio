@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className="container mx-auto justify-center align-items-center mt-20 mb-3">
             <div className="flex flex-col items-center text-white text-1xl text-center">
-                Víctor Cano 2023
+                Víctor Cano 2024
                 <div className='flex gap-6 mt-2'>
                     <a href='https://github.com/VictorCano18' target='_blank'>
                         <FaGithub className='text-xl' />

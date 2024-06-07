@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Avatar, Button } from 'flowbite-react';
-import AvatarImage from '../../public/assets/minimalist_me.png'
+import AvatarImage from '../../../public/assets/minimalist_me.png'
 import { IoIosMail } from "react-icons/io";
 import { FaFileInvoice } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             <div className="text-xl text-gray-300 dark:text-gray-300">Apassionate software engineer focused on web development and minimalist design</div>
             <div className='flex flex-row gap-2 sm:justify-start justify-center sm:items-start items-center pt-2'>
               <Tooltip content="Mail me" className='text-black bg-yellow-500 rounded'>
-                <Button href='#section5' pill className='w-fit animationIcon'>
+                <Button href='#section6' pill className='w-fit animationIcon'>
                   <IoIosMail className='text-xl animateIcon' />
                 </Button>
               </Tooltip>
