@@ -16,7 +16,7 @@ export default function Courses() {
                     <img src={UdemyLogo.src} alt='udemy-logo' className='flex h-fit imgWidth' />
                     <div className="w-52 space-y-1 font-medium text-white dark:text-white flex flex-col justify-between">
                         <div>
-                            <div><strong>Udemyww</strong></div>
+                            <div><strong>Udemy</strong></div>
                             <div className="text-sm text-gray-300 dark:text-gray-300">Modern React with Redux</div>
                         </div>
                         <a href='https://www.udemy.com/certificate/UC-8cf9dd67-aa27-4ea8-b311-94852bda78a9/' target='_blank' className="animationIcon mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-gray-600 hover:bg-gray-700 focus:ring-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-fit rounded">
