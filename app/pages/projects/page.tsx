@@ -3,15 +3,15 @@
 import { Button, Tooltip } from 'flowbite-react';
 import React from 'react';
 import worldRank from '../../../public/assets/world_rank_project.png';
-import bellaNails from '../../../public/assets/bella_nails_project.png'
+import bellaNails from '../../../public/assets/bella_nails_project.png';
 import { RiShareBoxLine } from 'react-icons/ri';
 import { FaGithub } from 'react-icons/fa';
 
 export default function Projects() {
   return (
     <div className="relative mx-auto max-w-xs text-white sm:max-w-full">
-      <h1 className="mb-5 text-4xl text-yellow-600 sm:text-5xl">Projects</h1>
-      <div className='flex flex-col items-center gap-16'>
+      <h1 className="mb-5 text-4xl text-yellow-400 sm:text-5xl">Projects</h1>
+      <div className="flex flex-col items-center gap-16">
         <div className="relative flex flex-col items-center gap-6 sm:flex-row">
           <img
             src={worldRank.src}
@@ -20,7 +20,7 @@ export default function Projects() {
           />
           <div className="flex flex-col gap-2">
             <div className="flex flex-col items-center justify-center text-center">
-              <div className="strong dateColor text-2xl">World Rank</div>
+              <div className="strong text-2xl text-[#b2e5eb]">World Rank</div>
               <p>
                 Project made with <strong>React + Vite.js</strong> and for
                 styling <strong>SCSS</strong>
@@ -64,10 +64,13 @@ export default function Projects() {
           />
           <div className="flex flex-col gap-2">
             <div className="flex flex-col items-center justify-center text-center">
-              <div className="strong dateColor text-2xl">Bella Nails</div>
+              <div className="strong text-2xl text-[#b2e5eb]">Bella Nails</div>
               <p>
                 Project made with <strong>React + Vite.js</strong> and for
-                styling <strong>Tailwind</strong>
+                styling <strong>Tailwind</strong> (Frontend)
+              </p>
+              <p>
+                and <strong>Node.js + MySQL + AWS </strong> (Backend)
               </p>
             </div>
             <div className="flex items-center justify-center gap-2">
@@ -78,7 +81,7 @@ export default function Projects() {
                 <Button
                   disabled
                   pill
-                  className="animationIcon w-fit cursor"
+                  className="animationIcon cursor w-fit"
                   color="purple"
                 >
                   <FaGithub className="animateIcon text-xl" />

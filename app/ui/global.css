@@ -154,10 +154,6 @@ body::-webkit-scrollbar-thumb {
   display: none !important;
 }
 
-.dateColor {
-  color: #b2e5eb
-}
-
 .imgWidth {
   width: 2rem;
   height: 2rem;

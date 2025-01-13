@@ -79,7 +79,7 @@ export default function Stack() {
 
     return (
         <div className="sm:max-w-full max-w-xs mx-auto">
-            <h1 className="text-yellow-600 text-4xl sm:text-5xl mb-5 text-left">Stack</h1>
+            <h1 className="text-yellow-400 text-4xl sm:text-5xl mb-5 text-left">Stack</h1>
             <div className="flex align-items-center justify-center">
                 <div className="grid sm:grid-cols-5 grid-cols-3 gap-x-24 gap-y-6 stackGridCols">
                     {/* <div className="grid grid-flow-col gap-20 text-black">
