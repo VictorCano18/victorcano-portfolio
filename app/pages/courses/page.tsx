@@ -97,7 +97,7 @@ export default function Courses() {
                   <strong>EDX</strong>
                 </div>
                 <div className="text-sm text-gray-300 dark:text-gray-300">
-                  AI's Introduction
+                  AI&#39;s Introduction
                 </div>
               </div>
             </a>
