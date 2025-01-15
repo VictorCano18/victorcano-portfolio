@@ -15,7 +15,7 @@ const theme = {
   item: {
     root: {
       horizontal: 'relative mb-6 sm:mb-0',
-      vertical: 'mb-10 ml-6',
+      vertical: 'mb-24 ml-6',
     },
     content: {
       root: {
@@ -679,7 +679,7 @@ export default function Experience() {
               </div>
             </Timeline.Content>
           </Timeline.Item>
-          <Timeline.Item>
+          <Timeline.Item theme={theme.item}>
             <Timeline.Point theme={theme.item.point} icon={HiCalendar} />
             <Timeline.Content>
               <Timeline.Time>
@@ -990,7 +990,7 @@ export default function Experience() {
               </div>
             </Timeline.Content>
           </Timeline.Item>
-          <Timeline.Item>
+          <Timeline.Item theme={theme.item}>
             <Timeline.Point theme={theme.item.point} icon={HiCalendar} />
             <Timeline.Content>
               <Timeline.Time>
