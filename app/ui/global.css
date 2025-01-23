@@ -60,10 +60,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.contactButton {
-  background-color: #4b5563 !important;
-}
-
 .clipboardMessage {
   position: absolute;
   right: 0;

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Avatar, Button } from 'flowbite-react';
-import AvatarImage from '../../../public/assets/minimalist_me.png'
+import AvatarImage from '../../../public/assets/avatar.svg'
 import { IoIosMail } from "react-icons/io";
 import { FaFileInvoice } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -46,22 +46,22 @@ const Header: React.FC = () => {
             <div className="text-xl text-gray-300 dark:text-gray-300">Apassionate software engineer focused on web development and minimalist design</div>
             <div className='flex flex-row gap-2 sm:justify-start justify-center sm:items-start items-center pt-2'>
               <Tooltip content="Mail me" className='text-black bg-yellow-500 rounded'>
-                <Button href='#section6' pill className='w-fit animationIcon'>
+                <Button href='#section6' pill className='w-fit animationIcon' color="dark">
                   <IoIosMail className='text-xl animateIcon' />
                 </Button>
               </Tooltip>
               <Tooltip content="GitHub source" className='text-black bg-yellow-500 rounded'>
-                <Button href='https://github.com/VictorCano18/victorcano-portfolio' target='_blank' pill className='w-fit animationIcon' color="purple">
+                <Button href='https://github.com/VictorCano18/victorcano-portfolio' target='_blank' pill className='w-fit animationIcon' color="dark">
                   <FaGithub className='text-xl animateIcon' />
                 </Button>
               </Tooltip>
               <Tooltip content="LinkedIn" className='text-black bg-yellow-500 rounded'>
-                <Button href="https://www.linkedin.com/in/vics1806/" target='_blank' pill className='w-fit animationIcon' color="blue">
+                <Button href="https://www.linkedin.com/in/vics1806/" target='_blank' pill className='w-fit animationIcon' color="dark">
                   <FaLinkedin className='text-xl animateIcon' />
                 </Button>
               </Tooltip>
               <Tooltip content="Resume" className='text-black bg-yellow-500 rounded'>
-                <Button onClick={handleDownload} pill className='w-fit animationIcon' color="failure">
+                <Button onClick={handleDownload} pill className='w-fit animationIcon' color="dark">
                   <FaFileInvoice className='text-xl animateIcon' />
                 </Button>
               </Tooltip>

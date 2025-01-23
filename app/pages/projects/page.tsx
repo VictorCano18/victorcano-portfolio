@@ -36,7 +36,7 @@ export default function Projects() {
                   target="_blank"
                   pill
                   className="animationIcon w-fit"
-                  color="purple"
+                  color="dark"
                 >
                   <FaGithub className="animateIcon text-xl" />
                 </Button>
@@ -49,6 +49,7 @@ export default function Projects() {
                   href="https://world-rank-liard.vercel.app/"
                   pill
                   className="animationIcon w-fit"
+                  color="dark"
                 >
                   <RiShareBoxLine className="animateIcon text-xl" />
                 </Button>
@@ -82,7 +83,7 @@ export default function Projects() {
                   disabled
                   pill
                   className="animationIcon cursor w-fit"
-                  color="purple"
+                  color="dark"
                 >
                   <FaGithub className="animateIcon text-xl" />
                 </Button>
@@ -95,6 +96,7 @@ export default function Projects() {
                   href="http://bella.nails.s3-website.us-east-2.amazonaws.com/"
                   pill
                   className="animationIcon w-fit"
+                  color="dark"
                 >
                   <RiShareBoxLine className="animateIcon text-xl" />
                 </Button>
