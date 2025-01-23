@@ -70,7 +70,7 @@ const Header: React.FC = () => {
         </div>
         <div className={`${!shouldHide && 'hidden'}`}>
           <a href='#section1'>
-            <Avatar img={AvatarImage.src} rounded className='avatarMeHeader justify-start fixed sm:space-x-4 space-x-0 z-30 w-full xl:w-1/2 p-2 bg-black sm:gap-0 gap-5 top-0'>
+            <Avatar img={AvatarImage.src} rounded className='avatarMeHeader justify-start fixed sm:space-x-4 space-x-0 z-30 w-full xl:w-3/4 p-2 bg-black sm:gap-0 gap-5 top-0'>
               <div className="sm:text-5xl text-3xl space-y-1 font-medium dark:text-white text-left">
                 <div>Víctor Cano</div>
               </div>

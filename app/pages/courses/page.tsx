@@ -20,7 +20,7 @@ export default function Courses() {
             <a
               href="https://www.udemy.com/certificate/UC-8cf9dd67-aa27-4ea8-b311-94852bda78a9/"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -41,7 +41,7 @@ export default function Courses() {
             <a
               href="https://www.coursera.org/account/accomplishments/certificate/ADZCRPCV5ENE"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -62,7 +62,7 @@ export default function Courses() {
             <a
               href="https://www.coursera.org/account/accomplishments/certificate/8E5XCQ59LBUX"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -85,7 +85,7 @@ export default function Courses() {
             <a
               href="https://courses.edx.org/certificates/5208d5357c3f4fe198e885ef13a8cc52"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -106,7 +106,7 @@ export default function Courses() {
             <a
               href="https://www.coursera.org/account/accomplishments/certificate/7LXQSYMKHY5K"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -127,7 +127,7 @@ export default function Courses() {
             <a
               href="https://www.coursera.org/account/accomplishments/certificate/BX9G6W9FJDGN"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -150,7 +150,7 @@ export default function Courses() {
             <a
               href="https://www.coursera.org/account/accomplishments/certificate/YV5MGJLAVVLL"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"
@@ -171,7 +171,7 @@ export default function Courses() {
             <a
               href="https://www.udemy.com/certificate/UC-ee0323d1-5b1c-470d-9cbd-8eaab4c60a74"
               target="_blank"
-              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#26262636] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#26262636] dark:focus:ring-gray-800"
+              className="dark mt-8 flex inline-flex w-fit flex-col items-center rounded-md px-3 py-4 text-center text-sm font-medium hover:bg-[#2626268a] focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-gray-800 dark:hover:bg-[#2626268a] dark:focus:ring-gray-800"
             >
               <img
                 className="h-auto max-w-full rounded-lg"

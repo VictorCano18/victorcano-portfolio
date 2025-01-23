@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-black mx-auto relative px-5 sm:max-w-screen-sm md:max-w-[800px]'>{children}</body>
+      <body className='bg-black mx-auto relative px-5 sm:max-w-screen-sm md:max-w-[900px]'>{children}</body>
       <GoogleAnalytics gaId="G-8JG0BDHZ7T" />
     </html>
   );
