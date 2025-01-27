@@ -36,26 +36,28 @@ const Header: React.FC = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  return (
-    <header>
+
+return (
+    <header className="bg-black text-white">
       <div className="main-heading flex flex-col">
+        {/* Main Header Section */}
         <div className="mb-2 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <img
-            src={AvatarImage.src}
-            alt="avatar of me"
-            className="h-3/5 w-3/5 sm:h-2/5 sm:w-2/5"
-          />
-          <div className="space-y-1 text-center text-5xl font-medium text-white dark:text-white sm:text-left">
+          {/* Avatar */}
+          <div className="w-2/5 sm:w-4/5">
+            <AvatarImage aria-label="Avatar of Victor Cano" />
+          </div>
+
+          {/* Content */}
+          <div className="space-y-1 text-center text-5xl font-medium sm:text-left">
             <div className="font-medium">Víctor Cano</div>
-            <div className="text-xl text-gray-300 dark:text-gray-300">
-              Apassionate software engineer focused on web development and
+            <div className="text-xl text-gray-300">
+              Passionate software engineer focused on web development and
               minimalist design
             </div>
-            <div className="flex flex-row items-center justify-center gap-2 pt-2 sm:items-start sm:justify-start">
-              <Tooltip
-                content="Mail me"
-                className="rounded bg-yellow-500 text-black"
-              >
+
+            {/* Buttons */}
+            <div className="flex items-center justify-center gap-2 pt-2 sm:justify-start">
+              <Tooltip content="Mail me" className="rounded bg-yellow-500 text-black">
                 <Button
                   href="#section6"
                   pill
@@ -65,10 +67,7 @@ const Header: React.FC = () => {
                   <IoIosMail className="animateIcon text-xl" />
                 </Button>
               </Tooltip>
-              <Tooltip
-                content="GitHub source"
-                className="rounded bg-yellow-500 text-black"
-              >
+              <Tooltip content="GitHub source" className="rounded bg-yellow-500 text-black">
                 <Button
                   href="https://github.com/VictorCano18/victorcano-portfolio"
                   target="_blank"
@@ -79,10 +78,7 @@ const Header: React.FC = () => {
                   <FaGithub className="animateIcon text-xl" />
                 </Button>
               </Tooltip>
-              <Tooltip
-                content="LinkedIn"
-                className="rounded bg-yellow-500 text-black"
-              >
+              <Tooltip content="LinkedIn" className="rounded bg-yellow-500 text-black">
                 <Button
                   href="https://www.linkedin.com/in/vics1806/"
                   target="_blank"
@@ -93,10 +89,7 @@ const Header: React.FC = () => {
                   <FaLinkedin className="animateIcon text-xl" />
                 </Button>
               </Tooltip>
-              <Tooltip
-                content="Resume"
-                className="rounded bg-yellow-500 text-black"
-              >
+              <Tooltip content="Resume" className="rounded bg-yellow-500 text-black">
                 <Button
                   onClick={handleDownload}
                   pill
@@ -109,19 +102,24 @@ const Header: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* Sticky Header Section */}
         <div className={`${!shouldHide && 'hidden'}`}>
           <a href="#section1">
-            <Avatar
-              img={AvatarImage.src}
-              rounded
-              className="avatarMeHeader fixed top-0 z-30 w-full justify-start gap-5 space-x-0 bg-black p-2 sm:gap-0 sm:space-x-4 xl:w-3/4"
-            >
-              <div className="space-y-1 text-left text-3xl font-medium dark:text-white sm:text-5xl">
-                <div>Víctor Cano</div>
+            <div className="fixed top-0 z-30 w-full bg-black p-2">
+              <div className="flex items-center gap-5">
+                <AvatarImage
+                  aria-label="Avatar of Victor Cano"
+                  className="h-16 w-16 sm:h-24 sm:w-24"
+                />
+                <div className="text-left text-white">
+                  <h1 className="text-3xl font-medium sm:text-5xl">Víctor Cano</h1>
+                </div>
               </div>
-            </Avatar>
+            </div>
           </a>
         </div>
+
         <hr
           style={{
             width: '100%',
